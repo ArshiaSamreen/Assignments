@@ -1,0 +1,11 @@
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\bin\Debug\Ecommerce.Helpers.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\bin\Debug\Ecommerce.Helpers.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\bin\Debug\Newtonsoft.Json.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\bin\Debug\System.ValueTuple.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\bin\Debug\Newtonsoft.Json.xml
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\bin\Debug\System.ValueTuple.xml
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\obj\Debug\Ecommerce.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\obj\Debug\Ecommerce.Helpers.csproj.CopyComplete
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\obj\Debug\Ecommerce.Helpers.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\obj\Debug\Ecommerce.Helpers.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Helpers\obj\Debug\Ecommerce.Helpers.csprojAssemblyReference.cache

@@ -1,0 +1,13 @@
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\Ecommerce.Entities.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\Ecommerce.Entities.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\Ecommerce.Helpers.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\Ecommerce.Helpers.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\obj\Debug\Ecommerce.Entities.csprojAssemblyReference.cache
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\obj\Debug\Ecommerce.Entities.csproj.CoreCompileInputs.cache
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\obj\Debug\Ecommerce.Entities.csproj.CopyComplete
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\obj\Debug\Ecommerce.Entities.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Entities\obj\Debug\Ecommerce.Entities.pdb

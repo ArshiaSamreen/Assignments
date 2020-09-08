@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Ecommerce.MVC.Model.OrderCancel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CartProductID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantityToBeCancelled)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RefundAmount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CartProductID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantityToBeCancelled)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RefundAmount)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.OrderCancelID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.OrderCancelID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.OrderCancelID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

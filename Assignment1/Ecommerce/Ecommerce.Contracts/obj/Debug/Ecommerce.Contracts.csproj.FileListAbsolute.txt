@@ -1,0 +1,15 @@
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Ecommerce.Contracts.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Ecommerce.Contracts.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Ecommerce.Entities.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Ecommerce.Helpers.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Newtonsoft.Json.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\System.ValueTuple.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Ecommerce.Entities.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Ecommerce.Helpers.pdb
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\Newtonsoft.Json.xml
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\bin\Debug\System.ValueTuple.xml
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\obj\Debug\Ecommerce.Contracts.csprojAssemblyReference.cache
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\obj\Debug\Ecommerce.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\obj\Debug\Ecommerce.Contracts.csproj.CopyComplete
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\obj\Debug\Ecommerce.Contracts.dll
+C:\Users\A\Downloads\.Net Azure\Ecommerce\Ecommerce.Contracts\obj\Debug\Ecommerce.Contracts.pdb

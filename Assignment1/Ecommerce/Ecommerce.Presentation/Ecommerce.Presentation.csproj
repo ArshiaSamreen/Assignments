@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{645CEC38-8E49-4677-95C3-38EAF5C752EB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Ecommerce.Presentation</RootNamespace>
+    <AssemblyName>Ecommerce.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.2</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressPresentation.cs" />
+    <Compile Include="AdminPresentation.cs" />
+    <Compile Include="UserData.cs" />
+    <Compile Include="OnlineReturnPresentation.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CustomerPresentation.cs" />
+    <Compile Include="CustomerProductPresentation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce.BusinessLayer\Ecommerce.BusinessLayer.csproj">
+      <Project>{ee4ffe8d-1ca6-4c0f-b61a-bd64ac65eb11}</Project>
+      <Name>Ecommerce.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecommerce.Contracts\Ecommerce.Contracts.csproj">
+      <Project>{d1d478a3-7fe7-4886-94fa-3045e6bf12e1}</Project>
+      <Name>Ecommerce.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecommerce.Entities\Ecommerce.Entities.csproj">
+      <Project>{593059b9-a203-4278-ab38-f64f0b3bd33b}</Project>
+      <Name>Ecommerce.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecommerce.Exceptions\Ecommerce.Exceptions.csproj">
+      <Project>{6839dda8-395a-4d42-984f-aadef3eb8a22}</Project>
+      <Name>Ecommerce.Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ecommerce.Helpers\Ecommerce.Helpers.csproj">
+      <Project>{50909f96-aff0-4ba1-a85c-bebd3fcae723}</Project>
+      <Name>Ecommerce.Helpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
