@@ -8,9 +8,6 @@ using Microsoft.Extensions.Logging;
 using AzureFinalAssignment.Models;
 using System.Security.Policy;
 using AzureFinalAssignment.Service;
-//using Microsoft.AspNet.WebApi.Client;
-using System.Net.Http;
-using System.Net.Http.Headers;
 
 namespace AzureFinalAssignment.Controllers
 {
@@ -24,7 +21,7 @@ namespace AzureFinalAssignment.Controllers
         {
             _logger = logger;
             _publish = publish;            
-        }        
+        }
 
         public IActionResult Index()
         {
@@ -44,12 +41,13 @@ namespace AzureFinalAssignment.Controllers
             if (ModelState.IsValid)
             {
                 string result = await _publish.SendMessagesAsync(message);
-                //return RedirectToAction(nameof(PromotionMessage));                    
+                //return RedirectToAction(nameof(PromotionMessage));    
                 ViewData["response"] = result;
                 return View();
             };
             return View(message);
         }
+
         public IActionResult Privacy()
         {
             return View();

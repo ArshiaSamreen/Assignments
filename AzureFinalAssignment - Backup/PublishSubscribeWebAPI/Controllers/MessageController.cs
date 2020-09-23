@@ -24,6 +24,19 @@ namespace PublishSubscribeWebAPI.Controllers
             _logger = logger;
             _publish = publish;
         }
+        // GET: api/<MessageController>
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
+        // GET api/<MessageController>/5
+        [HttpGet("{id}")]
+        public string Get(int id)
+        {
+            return "value";
+        }
 
         // POST api/<MessageController>
         [HttpPost]
